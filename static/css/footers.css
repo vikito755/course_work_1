@@ -1,0 +1,13 @@
+.copyright-footer {
+    text-align: center;
+    color: white;    
+    background-color: black;
+    padding-bottom: 0.2vh;
+    padding-top: 0.2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.separator-copyright-footer {
+    margin-top: 40px;
+}

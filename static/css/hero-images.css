@@ -1,0 +1,40 @@
+/* cover image */
+
+.hero-image {
+    height: 100% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.astronaut-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1573588028698-f4759befb09a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=890&q=80");
+}
+
+.jupyter-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.cdnparenting.com/articles/2019/03/20150120/1315286447-H-696x476.jpg");
+}
+
+.mars-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsolarsystem.nasa.gov%2Finternal_resources%2F3841&f=1&nofb=1");
+}
+
+.moon-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i1.actualno.com/actualno_2013/upload/news/2015/08/06/0516349001438839186_1532404_920x708.webp");
+}
+
+
+.row-image {
+  width: 50vw;
+  height: 25vw;
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+  .row-image {
+      width: 100vw;
+      height: 50vw;
+  }
+  
+}

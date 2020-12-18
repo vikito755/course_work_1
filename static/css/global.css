@@ -1,0 +1,49 @@
+body, html {
+    /* Sets the height for the hero image */
+    height: 100vh;
+    background-color: #fab57f;
+    /* Removes vertical the scrollbar. */
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.row-container {
+    display: flex;
+    width: 100vw;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 1200px) { 
+    .row-container {
+        display: flex;
+        align-content: space-around;
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .column-container {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        padding-top: 40px;
+    }
+ }
